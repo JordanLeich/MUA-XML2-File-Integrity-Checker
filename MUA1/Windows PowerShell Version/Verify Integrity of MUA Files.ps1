@@ -18878,8 +18878,8 @@ Write-Host "$missingCounter files are missing."
 Write-Host "$alteredCounter files are either altered or corrupted."
 
 $outputDir = Read-Host "Enter the path where you want to save the output files"
-$missingFilesPath = Join-Path -Path $outputDir -ChildPath "missing_files.txt"
-$alteredFilesPath = Join-Path -Path $outputDir -ChildPath "altered_files.txt"
+$missingFilesPath = Join-Path -Path $outputDir -ChildPath "MUA_missing_files.txt"
+$alteredFilesPath = Join-Path -Path $outputDir -ChildPath "MUA_altered_files.txt"
 
 $missingFiles | Out-File -FilePath $missingFilesPath
 $alteredFiles | Out-File -FilePath $alteredFilesPath

@@ -18895,8 +18895,8 @@ try:
     print(altered_counter, "files are either altered or corrupted.")
     
     output_dir = input("Enter the path where you want to save the output files: ")
-    missing_files_path = os.path.join(output_dir, "missing_files.txt")
-    altered_files_path = os.path.join(output_dir, "altered_files.txt")
+    missing_files_path = os.path.join(output_dir, "MUA_missing_files.txt")
+    altered_files_path = os.path.join(output_dir, "MUA_altered_files.txt")
     
     # Export missing files to a text file
     with open(missing_files_path, "w") as file:
