@@ -1,5 +1,5 @@
 # MUA+XML2 File Integrity Checker
-This a basic file integrity checker used for Ultimate Alliance PC 2006, Ultimate Alliance 2 PC Steam 2016, and X-Men Legends 2 PC 2005. This is used as a troubleshooting tool to find any missing or altered game files and report them back to the user.
+This a basic file integrity checker used for Ultimate Alliance PC 2006 & 2016, Ultimate Alliance 2 PC Steam 2016, and X-Men Legends 2 PC 2005. This is used as a troubleshooting tool to find any missing or altered game files and report them back to the user.
 
 ## Requirements
 1. Python for all game checkers except MUA1 if you have Windows with PowerShell.
